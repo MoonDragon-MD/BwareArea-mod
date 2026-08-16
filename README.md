@@ -8,6 +8,14 @@ Fixes:
 4) GPS that "drops" (startForeground too late + invalid notification)
 5) Overlay/double-tap that reopens the welcome and stops the service
 6) + crash ClassCastException toolbar + crash notification icon
+  
+How to apply:
+
+Download the sources and run the patch with python
+
+python3 Patch-FIX-2026.py
+
+Now recompile and enjoy the app to the fullest
 
 # BwareArea
 
